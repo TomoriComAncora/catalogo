@@ -13,7 +13,7 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
-    color: #ccc;
+    color: #fbfbf2;
     margin: 5rem 0;
     position: relative;
 }
@@ -60,7 +60,7 @@ body{
     font-size: 4rem;
     font-weight: normal;
     text-align: center;
-    color: #ccc;
+    color: #fbfbf2;
 }
 
 #apresentacao-principal span{
@@ -83,7 +83,7 @@ body{
 #contato h3{
     font-size: 1.5rem;
     font-style: italic;
-    color: #ccc;
+    color: #fbfbf2;
 }
 
 #instagram {
@@ -91,7 +91,7 @@ body{
     font-size: 1.5rem;
     color: #0b090a;
     background-color: #ffea00;
-    width: 300px;
+    width: 270px;
     height: 50px;
     border-radius: 30px;
     align-items: center;
@@ -117,7 +117,7 @@ body{
 #escolha{
     text-align: center;
     font-size: 1.5rem;
-    color: #ccc;
+    color: #fbfbf2;
     margin-bottom: 1rem;
     border-bottom: 2px solid #ffea00;
 }
