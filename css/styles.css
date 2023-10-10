@@ -2,4 +2,122 @@
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../img/O55GQY0.jpg);
+}
+
+#logo-nome{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #ccc;
+    margin: 5rem 0;
+    position: relative;
+}
+
+#aux{
+    height: 5rem;
+    width: 150px;
+    background-color: #161a1d;
+    position: absolute;
+}
+
+#titulo-pag{
+    height: 5rem;
+    width: 300px;
+    padding: 1rem;
+    font-size: 1.3rem;
+    background-color: #0b090a;
+    border-radius: 0 5rem 5rem 0;
+    text-align: center;
+    line-height: 50px;
+    position: absolute;
+    left: 140px;
+
+}
+
+#logo img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    position: absolute;
+    top: -40px;
+    left: 100px;
+    z-index: 99;
+}
+
+#apresentacao-principal{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 3rem 5rem;
+}
+
+#apresentacao-principal h2{
+    font-size: 4rem;
+    font-weight: normal;
+    text-align: center;
+    color: #ccc;
+}
+
+#apresentacao-principal span{
+    font-weight: bold;
+}
+
+#apresentacao img{
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 25px 1px rgba(255, 234, 0, 0.61);
+}
+
+#contato{
+    display: flex;
+    flex-direction: column;
+    margin: 3rem 5rem;
+}
+
+#contato h3{
+    font-size: 1.5rem;
+    font-style: italic;
+    color: #ccc;
+}
+
+#instagram {
+    display: flex;
+    font-size: 1.5rem;
+    color: #0b090a;
+    background-color: #ffea00;
+    width: 300px;
+    height: 50px;
+    border-radius: 30px;
+    align-items: center;
+    cursor: pointer;
+    margin-top: .5rem;
+}
+
+#instagram a{
+    text-decoration: none;
+    color: #0b090a;
+}
+
+#instagram p,
+#instagram i{
+    margin: 0 auto;
+}
+
+#instagram span{
+    font-weight: bold;
+    border-bottom: 2px solid #0b090a;
+}
+
+#escolha{
+    text-align: center;
+    font-size: 1.5rem;
+    color: #ccc;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #ffea00;
 }
