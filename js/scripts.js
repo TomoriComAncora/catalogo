@@ -37,11 +37,11 @@ botoes12.forEach((btns) => {
 
     botao12.querySelector(".cor").classList.add("selecionado");
 
-    imagemIp12.classList.add("trasparencia");
+    imagemIp12.classList.add("transparencia");
     imagemIp12.setAttribute("src", `img/img_iphone12/iphone12_${id12}.png`);
 
     setTimeout(() => {
-      imagem.classList.remove("transparencia");
+      imagemIp12.classList.remove("transparencia");
     }, 300);
   });
 });

@@ -9,6 +9,11 @@ body {
   background-image: url(../img/bg.jpg);
 }
 
+main img{
+    height: 550px;
+    width: 450px;
+}
+
 #logo-nome {
   display: flex;
   flex-direction: row;
@@ -126,10 +131,10 @@ body {
   opacity: 0.5;
 }
 
-.foto-iphone #imagem-produto {
+/* #imagem-produto {
   width: 500px;
   height: 500px;
-}
+} */
 
 .preview-iphone {
   margin-top: 1.5rem;
@@ -286,10 +291,10 @@ body {
     opacity: 0.5;
   }
   
-  .foto-iphone-12 #imagem-produto-12 {
+/* #imagem-produto-12 {
     width: 500px;
     height: 500px;
-  }
+  } */
   
   .preview-iphone-12{
     margin-top: 1.5rem;
