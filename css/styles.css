@@ -1,152 +1,245 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto', sans-serif;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
 }
 
-body{
-    background-image: url(../img/O55GQY0.jpg);
+body {
+  background-image: url(../img/bg.jpg);
 }
 
-#logo-nome{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    color: #fbfbf2;
-    margin: 5rem 0;
-    position: relative;
+#logo-nome {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #fbfbf2;
+  margin: 5rem 0;
+  position: relative;
 }
 
-#aux{
-    height: 5rem;
-    width: 150px;
-    background-color: #161a1d;
-    position: absolute;
+#aux {
+  height: 5rem;
+  width: 150px;
+  background-color: #161a1d;
+  position: absolute;
 }
 
-#titulo-pag{
-    height: 5rem;
-    width: 300px;
-    padding: 1rem;
-    font-size: 1.3rem;
-    background-color: #0b090a;
-    border-radius: 0 5rem 5rem 0;
-    text-align: center;
-    line-height: 50px;
-    position: absolute;
-    left: 140px;
-
+#titulo-pag {
+  height: 5rem;
+  width: 300px;
+  padding: 1rem;
+  font-size: 1.3rem;
+  background-color: #0b090a;
+  border-radius: 0 5rem 5rem 0;
+  text-align: center;
+  line-height: 50px;
+  position: absolute;
+  left: 140px;
 }
 
-#logo img{
-    height: 80px;
-    width: 80px;
-    border-radius: 50%;
-    position: absolute;
-    top: -40px;
-    left: 100px;
-    z-index: 99;
+#logo img {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  position: absolute;
+  top: -40px;
+  left: 100px;
+  z-index: 99;
 }
 
-#apresentacao-principal{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 3rem 5rem;
+#apresentacao-principal {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 3rem 5rem;
 }
 
-#apresentacao-principal h2{
-    font-size: 4rem;
-    font-weight: normal;
-    text-align: center;
-    color: #fbfbf2;
+#apresentacao-principal h2 {
+  font-size: 4rem;
+  font-weight: normal;
+  text-align: center;
+  color: #fbfbf2;
 }
 
-#apresentacao-principal span{
-    font-weight: bold;
+#apresentacao-principal span {
+  font-weight: bold;
 }
 
-#apresentacao img{
-    height: 500px;
-    width: 500px;
-    border-radius: 50%;
-    box-shadow: 5px 5px 25px 1px rgba(255, 234, 0, 0.61);
+#apresentacao img {
+  height: 500px;
+  width: 500px;
+  border-radius: 50%;
+  box-shadow: 5px 5px 25px 1px rgba(255, 234, 0, 0.61);
 }
 
-#contato{
-    display: flex;
-    flex-direction: column;
-    margin: 3rem 5rem;
+#contato {
+  display: flex;
+  flex-direction: column;
+  margin: 3rem 5rem;
 }
 
-#contato h3{
-    font-size: 1.5rem;
-    font-style: italic;
-    color: #fbfbf2;
+#contato h3 {
+  font-size: 1.5rem;
+  font-style: italic;
+  color: #fbfbf2;
 }
 
 #instagram {
-    display: flex;
-    font-size: 1.5rem;
-    color: #0b090a;
-    background-color: #ffea00;
-    width: 270px;
-    height: 50px;
-    border-radius: 30px;
-    align-items: center;
-    cursor: pointer;
-    margin-top: .5rem;
+  display: flex;
+  font-size: 1.5rem;
+  color: #0b090a;
+  background-color: #ffea00;
+  width: 270px;
+  height: 50px;
+  border-radius: 30px;
+  align-items: center;
+  cursor: pointer;
+  margin-top: 0.5rem;
 }
 
-#instagram a{
-    text-decoration: none;
-    color: #0b090a;
+#instagram a {
+  text-decoration: none;
+  color: #0b090a;
 }
 
 #instagram p,
-#instagram i{
-    margin: 0 auto;
+#instagram i {
+  margin-left: 1rem;
 }
 
-#instagram span{
-    font-weight: bold;
-    border-bottom: 2px solid #0b090a;
+#instagram span {
+  font-weight: bold;
+  border-bottom: 2px solid #0b090a;
 }
 
-#escolha{
-    text-align: center;
-    font-size: 1.5rem;
-    color: #fbfbf2;
-    margin-bottom: 1rem;
-    border-bottom: 2px solid #ffea00;
+#escolha {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #fbfbf2;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #ffea00;
 }
 
 /* sessão iphone 11 */
-#iphone11 h2{
-    display: flex;
-    justify-content: center;
-    color: #fbfbf2;
-    margin-right: 2rem;
-    font-size: 2rem;
+
+.preview-iphone {
+  margin-top: 1.5rem;
+  display: flex;
 }
 
-.preview-iphone{
-    display: flex;
+.foto-iphone {
+  margin-top: 4rem;
 }
 
-#escolha-iphone11{
-    margin: 3rem;
+#escolha-iphone11 {
+  margin: 1.5rem;
 }
 
-#escolha-iphone11 ul{
-    display: flex;
-    justify-content: center;
+#escolha-iphone11 ul {
+  display: flex;
+  justify-content: center;
 }
 
-#escolha-iphone11 li .cor{
-    height: 1rem;
-    width: 1rem;
-    border-radius: 50%;
-    border: 1px solid #ffea00;
+#escolha-iphone11 li {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+#escolha-iphone11 li .cor {
+  height: 1rem;
+  width: 1rem;
+  border-radius: 50%;
+  border: 1px solid #ffea00;
+  pointer-events: none;
+  background-color: #ffea00;
+}
+
+#escolha-iphone11 .nome {
+  font-size: 1rem;
+  color: #fbfbf2;
+  margin-top: 0.5rem;
+}
+
+.foto-iphone p {
+  font-size: 1.5rem;
+  color: #fbfbf2;
+  text-align: center;
+}
+
+#iphone11 .aviso {
+  font-size: 1.4rem;
+  font-style: italic;
+  color: #fbfbf2;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.informacoes {
+  display: flex;
+  flex-direction: column;
+}
+
+.informacoes h2 {
+  display: flex;
+  justify-content: center;
+  color: #fbfbf2;
+  margin-right: 1rem;
+  font-size: 3rem;
+}
+
+.armazenamentos {
+  display: flex;
+  margin-top: 2rem;
+}
+
+.menor,
+.maior {
+  flex: 1;
+  margin-left: 0.5rem;
+  padding: 1rem 0 1rem 0.9rem;
+}
+
+.maior {
+  border-left: 3px solid #ffea00;
+}
+
+.btn {
+  width: 150px;
+  height: 50px;
+  background-color: #ffea00;
+  text-align: center;
+  padding: 0.4rem 1rem;
+  line-height: 40px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-radius: 5rem;
+  cursor: pointer;
+  margin: 1rem auto;
+}
+
+.btn span {
+  border-bottom: 2px solid #0b090a;
+}
+
+.btn a {
+  text-decoration: none;
+  color: #0b090a;
+}
+
+.maior h3,
+.menor h3 {
+  color: #fbfbf2;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+.maior p,
+.menor p {
+  color: #fbfbf2;
+  font-size: 1.6rem;
+  font-style: italic;
 }
