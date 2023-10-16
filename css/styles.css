@@ -122,6 +122,14 @@ body {
 }
 
 /* sessão iphone 11 */
+.foto-iphone #imagem-produto.transparencia {
+  opacity: 0.5;
+}
+
+.foto-iphone #imagem-produto{
+    width: 500px;
+    height: 500px;
+}
 
 .preview-iphone {
   margin-top: 1.5rem;
@@ -149,18 +157,37 @@ body {
   cursor: pointer;
 }
 #escolha-iphone11 li .cor {
-  height: 1rem;
-  width: 1rem;
+  height: 1.5rem;
+  width: 1.5rem;
   border-radius: 50%;
   border: 1px solid #ffea00;
   pointer-events: none;
-  background-color: #ffea00;
 }
 
 #escolha-iphone11 .nome {
   font-size: 1rem;
   color: #fbfbf2;
   margin-top: 0.5rem;
+}
+
+#branco .cor {
+  background-color: #fdf8f2;
+}
+
+#prata .cor {
+  background-color: #dfded5;
+}
+
+#preto .cor {
+  background-color: #202020;
+}
+
+#vermelho .cor {
+  background-color: #e10b31;
+}
+
+.selecionado {
+  outline: 2px solid #f640ce;
 }
 
 .foto-iphone p {
@@ -242,4 +269,13 @@ body {
   color: #fbfbf2;
   font-size: 1.6rem;
   font-style: italic;
+}
+
+.beneficios {
+  color: #fbfbf2;
+  text-decoration: #fbfbf2;
+  text-align: center;
+  /* margin: 4rem auto; */
+  margin-top: 5rem;
+  font-size: 1.7rem;
 }
