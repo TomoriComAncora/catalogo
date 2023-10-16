@@ -126,9 +126,9 @@ body {
   opacity: 0.5;
 }
 
-.foto-iphone #imagem-produto{
-    width: 500px;
-    height: 500px;
+.foto-iphone #imagem-produto {
+  width: 500px;
+  height: 500px;
 }
 
 .preview-iphone {
@@ -202,6 +202,7 @@ body {
   color: #fbfbf2;
   text-align: center;
   margin-top: 1rem;
+  border-bottom: 2px solid #ffea00;
 }
 
 .informacoes {
@@ -279,3 +280,159 @@ body {
   margin-top: 5rem;
   font-size: 1.7rem;
 }
+
+/* sessao iphone 12 */
+.foto-iphone #imagem-produto.transparencia {
+    opacity: 0.5;
+  }
+  
+  .foto-iphone-12 #imagem-produto-12 {
+    width: 500px;
+    height: 500px;
+  }
+  
+  .preview-iphone-12{
+    margin-top: 1.5rem;
+    display: flex;
+  }
+  
+  .foto-iphone-12 {
+    margin-top: 4rem;
+  }
+  
+  #escolha-iphone12 {
+    margin: 1.5rem;
+  }
+  
+  #escolha-iphone12 ul {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #escolha-iphone12 li {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+  }
+  #escolha-iphone12 li .cor {
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 50%;
+    border: 1px solid #ffea00;
+    pointer-events: none;
+  }
+  
+  #escolha-iphone12 .nome {
+    font-size: 1rem;
+    color: #fbfbf2;
+    margin-top: 0.5rem;
+  }
+  
+  #escolha-iphone12 #azul .cor {
+    background-color: #0a3559;
+  }
+  
+  #escolha-iphone12 #preto .cor {
+    background-color: #232027;
+  }
+  
+  #escolha-iphone12 #roxo .cor {
+    background-color: #bdb5ea;
+  }
+  
+  #escolha-iphone12 #vermelho .cor {
+    background-color: #e63c3c;
+  }
+
+  .foto-iphone-12 p {
+    font-size: 1.5rem;
+    color: #fbfbf2;
+    text-align: center;
+  }
+  
+  #iphone12 .aviso {
+    font-size: 1.4rem;
+    font-style: italic;
+    color: #fbfbf2;
+    text-align: center;
+    margin-top: 1rem;
+    border-bottom: 2px solid #ffea00;
+  }
+  
+  .informacoes {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .informacoes h2 {
+    display: flex;
+    justify-content: center;
+    color: #fbfbf2;
+    margin-right: 1rem;
+    font-size: 3rem;
+  }
+  
+  .armazenamentos {
+    display: flex;
+    margin-top: 2rem;
+  }
+  
+  .menor,
+  .maior {
+    flex: 1;
+    margin-left: 0.5rem;
+    padding: 1rem 0 1rem 0.9rem;
+  }
+  
+  .maior {
+    border-left: 3px solid #ffea00;
+  }
+  
+  .btn {
+    width: 150px;
+    height: 50px;
+    background-color: #ffea00;
+    text-align: center;
+    padding: 0.4rem 1rem;
+    line-height: 40px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 5rem;
+    cursor: pointer;
+    margin: 1rem auto;
+  }
+  
+  .btn span {
+    border-bottom: 2px solid #0b090a;
+  }
+  
+  .btn a {
+    text-decoration: none;
+    color: #0b090a;
+  }
+  
+  .maior h3,
+  .menor h3 {
+    color: #fbfbf2;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+  }
+  
+  .maior p,
+  .menor p {
+    color: #fbfbf2;
+    font-size: 1.6rem;
+    font-style: italic;
+  }
+  
+  #iphone12 .beneficios {
+    color: #fbfbf2;
+    text-decoration: #fbfbf2;
+    text-align: center;
+    /* margin: 4rem auto; */
+    margin-top: 5rem;
+    font-size: 1.7rem;
+  }
